@@ -37,11 +37,9 @@
     margin-top: 25px;
     margin-bottom: 25px;
     display: inline-block;
-    text-align: center;
 }
 
 .album-photo {
-    ;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -108,7 +106,7 @@ p em {
 }
 
 .social-links li a i:hover {
-    color: #b22222;
+    color: #bc4318;
 
 }
 
@@ -130,10 +128,6 @@ p em {
     text-decoration: none;
 }
 
-.nav-item span:hover {
-    background-color: #112048;
-}
-
 .nav-item span {
     text-transform: uppercase;
     font-size: 12px;
@@ -142,10 +136,6 @@ p em {
     letter-spacing: 1px;
     color: #f5f5f5;
     display: block;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
     width: 100%;
     padding-top: 5px;
     height: 100%;
@@ -153,6 +143,10 @@ p em {
 
 .nav-item span p {
     margin-top: 10px;
+}
+
+.hvr-bounce-to-bottom:before {
+    background: #112048;
 }
 
 /*Band members----------------------------------*/
@@ -186,23 +180,47 @@ p em {
     display: block;
 }
 
+.welcome-section p a {
+    text-decoration: none;
+}
+
+.welcome-section p a:hover {
+    color: #bc4318;
+}
+
+.welcome-section p em {
+    color: #c0c0c0;
+    font-weight: 500;
+}
 
 /*Mailing List------------------------------------*/
 
 .mailing-list {
-    margin-top: 20px;
+    margin-top: 40px;
+    display: inline-block;
 }
 
-#mailing-list-header {
-    text-align: center;
+.mailing-list input {
+    border: 3px solid #bc4318;
+}
+
+.mailing-list button {
+    color: #bc4318;
+    border: 1px solid #bc4318;
+    background-color: #000000;
+}
+
+.mailing-list button:hover {
+    background-color: #000000;
+    color: #f5f5f5;
 }
 
 /*Video----------------------------------------*/
 
 #video-dimentions {
     padding-bottom: 85%;
-    margin-left: 15px;
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -227,7 +245,7 @@ p em {
 
 .music-list .well {
     width: 100%;
-    margin:20px 0 20px 0;
+    margin: 20px 0 20px 0;
     padding: 0;
 }
 
@@ -237,9 +255,21 @@ p em {
 
 /*Albums section------------------------------------*/
 
+.albums-section {
+    margin-top: 20px;
+}
+
+.albums-section .album {
+    height: 500px;
+}
+
 .albums-section img {
     height: 300px;
     width: 300px;
+}
+
+.albums-section .caption {
+    background-color: #000000;
 }
 
 /*Media Queries-------------------------------------*/
