@@ -227,7 +227,7 @@ p em {
 /*Footer------------------------------------*/
 
 .footer-section {
-    margin-top: 50px;
+    margin-top: 100px;
     height: 100px;
 }
 
@@ -280,5 +280,14 @@ p em {
     }
     .music-list .well {
         width: 400px;
+    }
+    .search-bar .input-group {
+        padding-left: 150px;
+    }
+}
+
+@media (min-width:992px) {
+    .search-bar .input-group {
+        padding-left: 250px;
     }
 }
