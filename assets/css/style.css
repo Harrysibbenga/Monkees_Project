@@ -37,6 +37,7 @@
     margin-top: 25px;
     margin-bottom: 25px;
     display: inline-block;
+    width: 100%;
 }
 
 .album-photo {
@@ -120,6 +121,7 @@ p em {
 .nav-item {
     height: 50px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .nav-item a {
@@ -270,6 +272,41 @@ p em {
 
 .albums-section .caption {
     background-color: #000000;
+}
+
+/*Booking-------------------------------------------*/
+
+.booking-form {
+    background-color: #bc4318;
+}
+
+.booking-heading {
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.booking-heading h3,
+h5 {
+    color: #f5f5f5;
+    font-weight: 500;
+}
+
+.center-form {
+    padding: 50px;
+}
+
+.center-form input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.center-form button {
+    color: #f5f5f5;
+    background-color: #112048;
+}
+
+.center-form button:hover {
+    color: #bc4318;
 }
 
 /*Media Queries-------------------------------------*/
