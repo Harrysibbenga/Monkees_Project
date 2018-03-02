@@ -153,6 +153,14 @@ p em {
 
 /*Band members----------------------------------*/
 
+.band-members-section {
+    width: 100%;
+}
+
+.band-members {
+    width: 100%;
+}
+
 .mn {
     background-image: url("../images/mn.jpg");
 }
@@ -169,9 +177,10 @@ p em {
     background-image: url("../images/dj.jpg");
 }
 
+
 .names p {
-    text-align: center;
-    font-size: 10px;
+    margin-top: 5px;
+    font-size: 12px;
 }
 
 /*Welcome Section------------------------------------*/
@@ -229,7 +238,7 @@ p em {
 /*Footer------------------------------------*/
 
 .footer-section {
-    margin-top: 100px;
+    margin-top: 80px;
     height: 100px;
 }
 
@@ -249,10 +258,11 @@ p em {
     width: 100%;
     margin: 20px 0 20px 0;
     padding: 0;
+    background-color: #000000;
 }
 
-.well p {
-    color: black;
+.music-list .well p {
+    color: #bc4318;
 }
 
 /*Albums section------------------------------------*/
@@ -263,6 +273,7 @@ p em {
 
 .albums-section .album {
     height: 500px;
+    margin-top: 20px;
 }
 
 .albums-section img {
@@ -277,7 +288,7 @@ p em {
 /*Booking-------------------------------------------*/
 
 .booking-form {
-    background-color: #bc4318;
+    background-color: #112048;
 }
 
 .booking-heading {
@@ -285,8 +296,7 @@ p em {
     margin-top: 10px;
 }
 
-.booking-heading h3,
-h5 {
+.booking-heading {
     color: #f5f5f5;
     font-weight: 500;
 }
@@ -302,11 +312,32 @@ h5 {
 
 .center-form button {
     color: #f5f5f5;
-    background-color: #112048;
+    background-color: #bc4318;
 }
 
 .center-form button:hover {
-    color: #bc4318;
+    color: #112048;
+}
+
+/*Bio----------------------------------------------*/
+
+.group-photo img {
+    width: 80%;
+    height: 300px;
+}
+
+.bio-section .well-sm {
+    background-color: #bc4318;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.bio-section .well-sm .inner-well {
+    background-color: #000000;
+}
+
+.bio-section .well-sm .inner-well p {
+    color: #f5f5f5;
 }
 
 /*Media Queries-------------------------------------*/
@@ -321,10 +352,26 @@ h5 {
     .search-bar .input-group {
         padding-left: 150px;
     }
+
+    .band-members {
+        width: 80%;
+    }
+    .names p {
+        font-size: 16px;
+    }
 }
 
 @media (min-width:992px) {
     .search-bar .input-group {
         padding-left: 250px;
+    }
+    .band-members {
+        width: 55%;
+    }
+    .names p {
+        font-size: 18px;
+    }
+    .bio-section .well-sm {
+        margin: 50px 200px;
     }
 }
