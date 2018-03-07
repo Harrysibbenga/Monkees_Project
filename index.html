@@ -28,21 +28,21 @@
             </div>
             <!--Social links-->
             <ul class="list-inline social-links">
-              <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
-              <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="#" target="_blank"><i class="fa fa-soundcloud"></i></a></li>
-              <li><a href="#" target="_blank"><i class="fa fa-spotify"></i></a></li>
+              <li><a href="https://en-gb.facebook.com/TheMonkees/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="https://www.instagram.com/themonkees/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://soundcloud.com/themonkees" target="_blank"><i class="fa fa-soundcloud"></i></a></li>
+              <li><a href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck" target="_blank"><i class="fa fa-spotify"></i></a></li>
             </ul>
           </div>
         </div>
       </div>
       <!--Navigation-->
-      <div class="row">
-        <ul id="nav" class="list-inline">
-          <li class="col-xs-3 menu-color nav-item ">
-            <a href="index.html" class="hvr-bounce-to-bottom"><span>Home</span></a>
+      <div id="nav" class="row">
+        <ul class="list-inline nav-pills">
+          <li class="col-xs-3 menu-color nav-item active">
+            <a href="index.html" class="hvr-bounce-to-bottom "><span>Home</span></a>
           </li>
           <li class="col-xs-3 menu-color nav-item">
             <a href="music.html" class="hvr-bounce-to-bottom"><span>Music</span></a>
@@ -60,7 +60,7 @@
       <!--Background image-->
       <div class="row">
         <div class="col-xs-12">
-          <img src="assets/images/monkees.jpg" class="img-responsive band-photo" alt="Monkees band at a concert"/>
+          <img src="assets/images/monkees.jpg" class="img-responsive band-photo" alt="Monkees band"/>
         </div>
       </div>
       <!--Welcome-->
@@ -73,7 +73,7 @@
             </p>
             <p>"Fun Fact : In 1967 the Monkees sold more records than the Beatles and Rolling Stones combined !"</p>
             <div id="video-dimentions" class="embed-responsive embed-responsive-16by9 hidden-xs">
-              <video controls> 
+              <video controls poster="assets/images/videoscreen.png"> 
                 <source src="assets/video/TheMonkees.mp4" type="video/mp4"/>
                 Video not supported by your browser
               </video>
@@ -81,12 +81,12 @@
             <!--Sign up to mailing list-->
             <div class="col-xs-12 mailing-list">
               <h6>Join our mailing list for the latest News Updates</h6>
-              <div class="input-group">
+              <form class="input-group" method="post" action="monkeesproject.php">
                 <input type="email" class="form-control" id="mailinglist" placeholder="Your email" required/>
                 <div class="input-group-btn">
                   <button type="submit" class="btn btn-default">Sign up!</button>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
