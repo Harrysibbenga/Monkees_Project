@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css"/>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-    <title>The Monkees | Bookings Avilable. Book Now !!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>The Monkees | Bookings Available. Book Now !!</title>
   </head>
   <body>
     <header class="container-fluid">
@@ -17,60 +17,52 @@
         <a href="index.html">
           <div class="col-xs-6 logo"></div>
         </a>
-        <!--Search bar-->
         <div class="col-sx-6">
-          <div class="search-bar">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search..."/>
-              <span class="input-group-btn">
-                    <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
-                </span>
-            </div>
-            <!--Social links-->
-            <ul class="list-inline social-links">
-              <li><a href="https://en-gb.facebook.com/TheMonkees/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"><i class="fa fa-youtube"></i></a></li>
-              <li><a href="https://www.instagram.com/themonkees/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="https://soundcloud.com/themonkees" target="_blank"><i class="fa fa-soundcloud"></i></a></li>
-              <li><a href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck" target="_blank"><i class="fa fa-spotify"></i></a></li>
-            </ul>
-          </div>
+          <!--Social links-->
+          <ul class="list-inline social-links">
+            <li><a href="https://en-gb.facebook.com/TheMonkees/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/themonkees/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://soundcloud.com/themonkees" target="_blank"><i class="fa fa-soundcloud"></i></a></li>
+            <li><a href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck" target="_blank"><i class="fa fa-spotify"></i></a></li>
+          </ul>
         </div>
       </div>
       <!--Navigation-->
       <div id="nav" class="row">
         <ul class="list-inline nav-pills">
           <li class="col-xs-3 menu-color nav-item">
-            <a href="index.html" class="hvr-bounce-to-bottom" ><span>Home</span></a>
+            <a href="index.html" class="hvr-bounce-to-bottom"><span>Home</span></a>
           </li>
           <li class="col-xs-3 menu-color nav-item">
-            <a href="music.html" class="hvr-bounce-to-bottom" ><span>Music</span></a>
+            <a href="music.html" class="hvr-bounce-to-bottom"><span>Music</span></a>
           </li>
           <li class="col-xs-3 menu-color nav-item active">
             <a href="booking.html" class="hvr-bounce-to-bottom"><span>Bookings</span></a>
           </li>
           <li class="col-xs-3 menu-color nav-item">
-            <a href="about.html" class="hvr-bounce-to-bottom" ><span>About Us</span></a>
+            <a href="about.html" class="hvr-bounce-to-bottom"><span>About Us</span></a>
           </li>
         </ul>
       </div>
     </header>
     <section class="container-fluid">
+      <h1>Bookings !!!</h1>
       <div class="row booking-form">
         <div>
           <h3 class="booking-heading">Place your booking here</h3>
           <h5 class="booking-heading">One of our team will get in touch with you shortly with details of your booking</h5>
         </div>
         <div class="center-form">
-          <form name="bookingform" method="post" action="">
+          <form name="bookingform" method="post" action="MAILTO:test@testing.com">
             <input type="text" name="booking" class="form-control" id="bookingtype" placeholder="Party, Wedding, Birthday, Etc ....." required/>
             <input type="date" name="date" class="form-control" id="date" required/>
             <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First name" required/>
             <input type="text" name="surname" class="form-control" id="surname" placeholder="Surname name" required/>
-            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-            <input type="number" name="telephonenumber" class="form-control" id="telephonenumber" placeholder="Telephone Number" />
-            <input type="number" name="mobilenumber" class="form-control" id="mobilenumber" placeholder="Mobile Number" required/>
+            <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+            <input type="tel" name="telephonenumber" class="form-control" id="telephonenumber" placeholder="Telephone number" />
+            <input type="number" name="mobilenumber" class="form-control" id="mobilenumber" placeholder="Mobile number" required/>
             <button type="submit" class="btn btn-secondary center-block">Submit Booking</button>
           </form>
         </div>
