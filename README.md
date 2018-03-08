@@ -1,3 +1,15 @@
 # Monkees Project. 
 
-## First page gives an overview of the latest news and informs the user that the band is avilable for bookings.
+## Home page. 
+### Gives an overview of the latest news and it informs the user that the band is avilable for bookings. The user has the option to join the mailing list for upto date news. Video avilable on the desktop and ipad versions.
+
+## Music page.
+### Shows some of the monkees albums and a breif description of them including a music section where the user can play a few of their selected songs.
+
+## Booking page.
+### Simple form where the user can place a booking for the band. 
+
+## About us.
+### Breif history of the band and images of the band members included. 
+
+
