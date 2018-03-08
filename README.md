@@ -14,9 +14,9 @@
 
 ## Technologies used.
 
-### Bootstrap 3.3.7
-### Font Awesome 4.7.0
+### Bootstrap 3.3.7.
+### Font Awesome 4.7.0.
 ### Google Fonts 
-### Hover.css 2.1.1
+### Hover.css 2.1.1.
 
 
