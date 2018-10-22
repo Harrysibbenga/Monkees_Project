@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,64 +12,82 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The Monkees | Bookings Available. Book Now !!</title>
   </head>
+  
   <body>
-    <header class="container-fluid">
+    
+    <header>
+      <div class="container-fluid">
       <!--Logo-->
-      <div class="row">
-        <a href="index.html">
-          <div class="col-xs-6 logo"></div>
-        </a>
-        <div class="col-sx-6">
-          <!--Social links-->
-          <ul class="list-inline social-links">
-            <li><a href="https://en-gb.facebook.com/TheMonkees/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com/themonkees/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://soundcloud.com/themonkees" target="_blank"><i class="fa fa-soundcloud"></i></a></li>
-            <li><a href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck" target="_blank"><i class="fa fa-spotify"></i></a></li>
-          </ul>
+        <div class="row">
+          <a href="index.html">
+            <div class="col-xs-6 logo"></div>
+          </a>
+          <div class="col-sx-6">
+            <!--Social links-->
+            <ul class="list-inline social-links">
+              <li><a href="https://en-gb.facebook.com/TheMonkees/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="https://www.instagram.com/themonkees/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://soundcloud.com/themonkees" target="_blank"><i class="fa fa-soundcloud"></i></a></li>
+              <li><a href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck" target="_blank"><i class="fa fa-spotify"></i></a></li>
+            </ul>
+          </div>
         </div>
       </div>
+      
       <!--Navigation-->
-      <div id="nav" class="row">
-        <ul class="list-inline nav-pills">
-          <li class="col-xs-3 menu-color nav-item">
-            <a href="index.html" class="hvr-bounce-to-bottom"><span>Home</span></a>
-          </li>
-          <li class="col-xs-3 menu-color nav-item">
-            <a href="music.html" class="hvr-bounce-to-bottom"><span>Music</span></a>
-          </li>
-          <li class="col-xs-3 menu-color nav-item active">
-            <a href="booking.html" class="hvr-bounce-to-bottom"><span>Bookings</span></a>
-          </li>
-          <li class="col-xs-3 menu-color nav-item">
-            <a href="about.html" class="hvr-bounce-to-bottom"><span>About Us</span></a>
-          </li>
-        </ul>
-      </div>
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div class="row">
+            <ul class="nav nav-pills">
+              <li class="col-xs-3 menu-color nav-item">
+                <a href="index.html" class="hvr-bounce-to-bottom "><span>Home</span></a>
+              </li>
+              <li class="col-xs-3 menu-color nav-item">
+                <a href="music.html" class="hvr-bounce-to-bottom"><span>Music</span></a>
+              </li>
+              <li class="col-xs-3 menu-color nav-item active">
+                <a href="booking.html" class="hvr-bounce-to-bottom"><span>Bookings</span></a>
+              </li>
+              <li class="col-xs-3 menu-color nav-item">
+                <a href="about.html" class="hvr-bounce-to-bottom"><span>About</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
     </header>
-    <section class="container-fluid">
-      <h1>Bookings !!!</h1>
-      <div class="row booking-form">
-        <div>
-          <h3 class="booking-heading">Place your booking here</h3>
-          <h5 class="booking-heading">One of our team will get in touch with you shortly with details of your booking</h5>
+    
+    <main>
+      
+      <section id="booking-section">
+        <div class="container-fluid">
+          <h1>Book Now!</h1>
+          <div class="row booking-form">
+            <div>
+              <h3 class="booking-heading">Place your booking here</h3>
+              <h5 class="booking-heading">One of our team will get in touch with you shortly with details of your booking</h5>
+            </div>
+            <div class="center-form">
+              <form name="bookingform" method="post" action="MAILTO:test@testing.com">
+                <input type="text" name="booking" class="form-control" id="bookingtype" placeholder="Party, Wedding, Birthday, Etc ....." required/>
+                <input type="date" name="date" class="form-control" id="date" required/>
+                <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First name" required/>
+                <input type="text" name="surname" class="form-control" id="surname" placeholder="Surname name" required/>
+                <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                <input type="tel" name="telephonenumber" class="form-control" id="telephonenumber" placeholder="Telephone number" />
+                <input type="number" name="mobilenumber" class="form-control" id="mobilenumber" placeholder="Mobile number" required/>
+                <button type="submit" class="btn btn-secondary center-block">Submit Booking</button>
+              </form>
+            </div>
+          </div>
         </div>
-        <div class="center-form">
-          <form name="bookingform" method="post" action="MAILTO:test@testing.com">
-            <input type="text" name="booking" class="form-control" id="bookingtype" placeholder="Party, Wedding, Birthday, Etc ....." required/>
-            <input type="date" name="date" class="form-control" id="date" required/>
-            <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First name" required/>
-            <input type="text" name="surname" class="form-control" id="surname" placeholder="Surname name" required/>
-            <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-            <input type="tel" name="telephonenumber" class="form-control" id="telephonenumber" placeholder="Telephone number" />
-            <input type="number" name="mobilenumber" class="form-control" id="mobilenumber" placeholder="Mobile number" required/>
-            <button type="submit" class="btn btn-secondary center-block">Submit Booking</button>
-          </form>
-        </div>
-      </div>
-    </section>
+      </section>
+    
+    </main>
+    
     <footer class="container-fluid">
       <div class="row">
         <div class="col-xs-12 footer-section">
@@ -75,5 +95,7 @@
         </div>
       </div>
     </footer>
+    
   </body>
+  
 </html>
