@@ -39,7 +39,7 @@ to arears within the page that they require through the navbar.
 Also i decided to use the images of the band members on the about page only instead of everypage as this made the header section
 look crowded now we have some space in between the navigation icons and the logo. 
 
-[Wireframe](/Wireframes/The Monkeys Wireframe.pdf)
+[Wireframe](https://github.com/Harrysibbenga/Monkees_Project/blob/master/Wireframes/The%20Monkeys%20Wireframe.pdf)
 
 ## Features
 
